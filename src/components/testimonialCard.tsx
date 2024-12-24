@@ -1,16 +1,16 @@
-type testimonalCardProps = {
+type testimonialCardProps = {
   image: string;
   name: string;
   username: string;
   message: string;
 };
 
-export default function TestimonalCard({
+export default function TestimonialCard({
   image,
   name,
   username,
   message,
-}: testimonalCardProps): React.ReactElement {
+}: testimonialCardProps): React.ReactElement {
   return (
     <div className="flex flex-col p-[24px] flex space-y-[16px] w-[340px] max-w-[340px] bg-white">
       <div id="headline" className="flex space-x-[16px]">
